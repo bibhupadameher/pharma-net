@@ -1,0 +1,12 @@
+
+sudo ./fabricNetwork.sh generate
+
+sudo ./fabricNetwork.sh up
+
+sudo ./fabricNetwork.sh install
+
+sudo npm install
+
+sudo node .
+
+sudo ./fabricNetwork.sh down

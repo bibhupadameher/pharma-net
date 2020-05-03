@@ -1,0 +1,951 @@
+{
+	"info": {
+		"_postman_id": "ba16ca60-b5c2-4625-91ee-ea0ed24a254e",
+		"name": "Pharma-network-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/registerCompany-1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "MAN001",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "Sun Pharma",
+							"type": "text"
+						},
+						{
+							"key": "Location",
+							"value": "Chennai",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "Manufacturer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registerCompany",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/registerCompany-2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "TRA001",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "FedEx",
+							"type": "text"
+						},
+						{
+							"key": "Location",
+							"value": "Delhi",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "Transporter",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registerCompany",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/registerCompany-3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "TRA002",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "Blue Dart",
+							"type": "text"
+						},
+						{
+							"key": "Location",
+							"value": "Bangalore",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "Transporter",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registerCompany",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/registerCompany-4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "DIST001",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "VG Pharma",
+							"type": "text"
+						},
+						{
+							"key": "Location",
+							"value": "Vizag",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "Distributor",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registerCompany",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/registerCompany-5",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "RET002",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "upgrad",
+							"type": "text"
+						},
+						{
+							"key": "Location",
+							"value": "Mumbai",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "Retailer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registerCompany",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/addDrug-1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "001",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "20 MAR 2020",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "20 MAR 2025",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "MAN001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/addDrug",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/addDrug-2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "002",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "20 MAR 2020",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "20 MAR 2025",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "MAN001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/addDrug",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/addDrug-4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "004",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "20 MAR 2020",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "20 MAR 2025",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "MAN001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/addDrug",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/addDrug-3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "003",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "20 MAR 2020",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "20 MAR 2025",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "MAN001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/addDrug",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/createPO-byDis",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "buyerCRN",
+							"value": "DIST001",
+							"type": "text"
+						},
+						{
+							"key": "sellerCRN",
+							"value": "MAN001",
+							"type": "text"
+						},
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "quantity",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/createPO",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"createPO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/createShipment-byMan",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "buyerCRN",
+							"value": "DIST001",
+							"type": "text"
+						},
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "listOfAssets",
+							"value": "001,002,003",
+							"type": "text"
+						},
+						{
+							"key": "transporterCRN",
+							"value": "TRA001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/createShipment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"createShipment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/updateShipment-1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "buyerCRN",
+							"value": "DIST001",
+							"type": "text"
+						},
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "transporterCRN",
+							"value": "TRA001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateShipment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateShipment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/createPO-byRet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "buyerCRN",
+							"value": "RET002",
+							"type": "text"
+						},
+						{
+							"key": "sellerCRN",
+							"value": "DIST001",
+							"type": "text"
+						},
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "quantity",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/createPO",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"createPO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/createShipment-ByDis",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "buyerCRN",
+							"value": "RET002",
+							"type": "text"
+						},
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "listOfAssets",
+							"value": "001,002",
+							"type": "text"
+						},
+						{
+							"key": "transporterCRN",
+							"value": "TRA002",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/createShipment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"createShipment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/updateShipment-2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "buyerCRN",
+							"value": "RET002",
+							"type": "text"
+						},
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "transporterCRN",
+							"value": "TRA002",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/updateShipment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"updateShipment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/retailDrug",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "001",
+							"type": "text"
+						},
+						{
+							"key": "retailerCRN",
+							"value": "RET002",
+							"type": "text"
+						},
+						{
+							"key": "customerAadhar",
+							"value": "AAD001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/retailDrug",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"retailDrug"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/viewHistory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/viewHistory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"viewHistory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/viewDrugCurrentState",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "003",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/viewDrugCurrentState",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"viewDrugCurrentState"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

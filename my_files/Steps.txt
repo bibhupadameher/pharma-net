@@ -1,0 +1,4 @@
+1- crypto-config
+2-config-tx
+3- docker-compose-peer.yml
+  CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE=network_certification
