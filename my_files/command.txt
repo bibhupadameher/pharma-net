@@ -22,6 +22,12 @@ transporter
 docker exec -it cli bash
 docker exec -it chaincode /bin/bash
 
+chmod -R 777 ./
+
+
+
+docker exec -it explorer.pharma-network.com /bin/bash
+
 npm install
 npm run start-dev
 docker exec -it peer0.manufacturer.pharma-network.com /bin/bash

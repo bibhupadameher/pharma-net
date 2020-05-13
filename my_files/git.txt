@@ -1,0 +1,28 @@
+Set Up Git:
+git config --global user.name "bibhupadameher"
+git config --global user.email "bibhupada.meher@gmail.com"
+
+other commands
+git clone https://github.com/bibhupadameher/test.git
+git add  command.txt
+git commit -m "testing"
+git push -u origin master
+
+
+git add --all
+
+https://github.com/bibhupadameher/sample.git
+
+git init
+
+git add .
+
+git add --all
+
+git commit -m "Initial commit"
+
+git remote add origin https://github.com/bibhupadameher/pharma-net.git
+
+git remote -v
+
+git push origin master

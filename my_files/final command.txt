@@ -10,3 +10,5 @@ sudo npm install
 sudo node .
 
 sudo ./fabricNetwork.sh down
+
+sudo ./main.sh  install
